@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     margin: 0;
     padding: 0;
     border: none;
@@ -17,299 +17,273 @@
     radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0px, transparent 50%),
     radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
 }
+/* help button */
 
-
-
-
-/* content
-
-*/
-
-
-
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: none;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .background-image {
-    z-index: -1;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    object-fit: cover;
-    background-size: 1537px 722px;
-  }
-  .wrapper {
-    padding: 25px;
-  }
-  .studio-title {
-    font-size: 2rem;
-    text-align: center;
-    color: #fff;
-    padding: 10px;
-    margin: 5px;
-  }
-  .dob-text {
-    font-size: 1.25rem;
-    text-align: center;
-    color: #fff;
-    padding: 5px;
-    margin: 5px;
-  }
-  .dob-details {
-    color: #fff;
-    border-radius: 20px;
-    font-size: 1.25rem;
+.help-button-box{
+  display: flex;
+  width: 60px;
+  height: 60px;
   text-align: center;
-  }
-  .dob-month-day {
-    font-size: 1.75rem;
-  }
-  .submit-button {
-    color: #fff;
-    background-color: rgb(0, 0, 0);
-    border-radius: 10px;
-    border: none;
-    font-size: 1.25rem;
-    padding: 1rem;
-    margin: 3px;
-    border: 3px solid #fff;
-  }
-  .submit-button:hover {
-    color: #fff;
-    border: 4px solid #fff;
-    cursor: pointer;
-  }
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  padding:25px;
+}
+
+.help-button-icon {
+  border: none;
+  background: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.help-button-close {
+  display: flex;
+  align-self: flex-end;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  margin: 10px;
+}
+.help-close-icon {
+  border: none;
+  background: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 10px;
+}
+.help-box-list {
+  padding:  0 0 0 30px;
+  /*color: #fff;*/
+  font-size: 1.5rem;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.help-box-rectangle {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 35px;
+  margin: 20px 0;
+}
+.help-box-sub-heading {
+ /* color: #fff;*/
+  padding: 10px 0 0 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/*
+.wrapper {
+  padding: 25px;
+}*/
+.rapper-title {
+  font-size: 2rem;
   
-  .rectangle {
-    width: 100%;
-    border-radius: 35px;
-  }
-  .studio-img {
-    width: 100%;
-    border-radius: 20px;
-    border: 3px solid #fff;
-  }
-  
-  #main-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .studio-box {
-    max-width: 180px;
-    margin: 30px;
-    color: #fff;
-    text-align: center;
-  }
-  
-  .input-month {
-    color: #fff;
-    font-size: 1.25rem;
-    background-color: black;
-    box-sizing: border-box;
-    padding: 1rem;
-    margin: 1rem;
-    width: 100px;
-    border-radius: 10px;
-    border: 3px solid #fff;
-    text-align: center;
-  }
-  .input-day {
-    color: #fff;
-    font-size: 1.25rem;
-    background-color: black;
-    box-sizing: border-box;
-    padding: 1rem;
-    margin: 1rem;
-    width: 100px;
-    border-radius: 10px;
-    border: 3px solid #FFF;
-    text-align: center;
-  }
-  
-  .studio-sub-box {
-    display: none;
-    max-width: 300px;
-    color: #fff;
-    background-color: black;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 20px;
-    margin: 20px auto 20px auto;
-    border-radius: 10px;
-    border: 3px solid #fff;
-  }
-  .sign-image-aquarius {
-    width: 100%;
-    text-align: center;
-    border-radius: 10px;
-  }
-  .sign-name-aquarius {
-    text-align: center;
-    padding: 0 10px 10px 10px;
-  }
-  .name-of-person-aquarius {
-    text-align: center;
-    padding: 10px
-  }
-  .person-bio-aquarius {
-    font-size: 1rem;
   padding: 10px;
-  }
-  
-  .aquarius-button {
-    background: none;
-  }
-  .aquarius-button:hover {
-    cursor: pointer;
-  }
-  
-  .pisces-button{
-    background: none;
-  }
-  .pisces-button:hover {
-    cursor: pointer;
-  }
-  
-  .aries-button {
-    background: none;
-  }
-  .aries-button:hover {
-    cursor: pointer;
-  }
-  
-  .taurus-button {
-    background: none;
-  }
-  .taurus-button:hover {
-    cursor: pointer;
-  }
-  
-  .gemini-button {
-    background: none;
-  }
-  .gemini-button:hover {
-    cursor: pointer;
-  }
-  
-  .cancer-button {
-    background: none;
-  }
-  .cancer-button:hover {
-    cursor: pointer;
-  }
-  
-  .leo-button {
-    background: none;
-  }
-  .leo-button:hover {
-    cursor: pointer;
-  }
-  
-  .virgo-button {
-    background: none;
-  }
-  .virgo-button:hover {
-    cursor: pointer;
-  }
-  
-  .libra-button {
-    background: none;
-  }
-  .libra-button:hover {
-    cursor: pointer;
-  }
-  
-  .scorpio-button {
-    background: none;
-  }
-  .scorpio-button:hover {
-    cursor: pointer;
-  }
-  
-  .sagittarius-button {
-    background: none;
-  }
-  .sagittarius-button:hover {
-    cursor: pointer;
-  }
-  
-  .capricorn-button {
-    background: none;
-  }
-  .capricorn-button:hover {
-    cursor: pointer;
-  }
-  
-  /* help button */
-  
-  .help-button-box{
-    display: flex;
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30px;
-  }
-  
-  .help-button-icon {
-    border: none;
-    background: none;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-  .help-button-close {
-    display: flex;
-    align-self: flex-end;
-    width: 60px;
-    height: 60px;
-    background-color: black;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30px;
-    margin: 10px;
-  }
-  .help-close-icon {
-    border: none;
-    background: none;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    margin: 10px;
-  }
-  .help-box-list {
-    padding:  0 0 0 30px;
-    color: #fff;
-    font-size: 1.5rem;
-    padding: 10px 30px;
-    margin: 10px 20px;
-    text-align: center;
-    list-style-type: none;
-  }
-  
-  .help-box-rectangle {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    border-radius: 35px;
-    margin: 20px 0;
-  }
-  .help-box-sub-heading {
-    color: #fff;
-    padding: 10px 0 0 20px;
-    font-size: 2rem;
-    text-align: center;
-  }
+  margin: 5px;
+}
+.dob-text {
+  font-size: 1.25rem;
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+}
+.dob-details {
+  color: #fff;
+  border-radius: 20px;
+  font-size: 1.25rem;
+text-align: center;
+}
+.dob-month-day {
+  font-size: 1.75rem;
+}
+.submit-button {
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: none;
+  font-size: 1.25rem;
+  padding: 1rem;
+  margin: 3px;
+  border: 3px solid #fff;
+}
+.submit-button:hover {
+  color: #fff;
+  border: 4px solid #fff;
+  cursor: pointer;
+}
+
+.rectangle {
+  width: 100%;
+  border-radius: 35px;
+}
+.rapper-img {
+  width: 100%;
+  border-radius: 20px;
+  border: 3px solid #fff;
+}
+
+#main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.rapper-box {
+  max-width: 180px;
+  margin: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.input-month {
+  color: #fff;
+  font-size: 1.25rem;
+  background-color: black;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 1rem;
+  width: 100px;
+  border-radius: 10px;
+  border: 3px solid #fff;
+  text-align: center;
+}
+.input-day {
+  color: #fff;
+  font-size: 1.25rem;
+  background-color: black;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 1rem;
+  width: 100px;
+  border-radius: 10px;
+  border: 3px solid #FFF;
+  text-align: center;
+}
+
+.rapper-sub-box {
+  display: none;
+  max-width: 300px;
+  color: #fff;
+  background-color: black;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  margin: 20px auto 20px auto;
+  border-radius: 10px;
+  border: 3px solid #fff;
+}
+
+.sign-name-aquarius {
+  text-align: center;
+  padding: 0 10px 10px 10px;
+}
+.name-of-person-aquarius {
+  text-align: center;
+  padding: 10px
+}
+.person-bio-aquarius {
+  font-size: 1rem;
+padding: 10px;
+}
+
+.aquarius-button {
+  background: none;
+}
+.aquarius-button:hover {
+  cursor: pointer;
+}
+
+.pisces-button{
+  background: none;
+}
+.pisces-button:hover {
+  cursor: pointer;
+}
+
+.aries-button {
+  background: none;
+}
+.aries-button:hover {
+  cursor: pointer;
+}
+
+.taurus-button {
+  background: none;
+}
+.taurus-button:hover {
+  cursor: pointer;
+}
+
+.gemini-button {
+  background: none;
+}
+.gemini-button:hover {
+  cursor: pointer;
+}
+
+.cancer-button {
+  background: none;
+}
+.cancer-button:hover {
+  cursor: pointer;
+}
+
+.leo-button {
+  background: none;
+}
+.leo-button:hover {
+  cursor: pointer;
+}
+
+.virgo-button {
+  background: none;
+}
+.virgo-button:hover {
+  cursor: pointer;
+}
+
+.libra-button {
+  background: none;
+}
+.libra-button:hover {
+  cursor: pointer;
+}
+
+.scorpio-button {
+  background: none;
+}
+.scorpio-button:hover {
+  cursor: pointer;
+}
+
+.sagittarius-button {
+  background: none;
+}
+.sagittarius-button:hover {
+  cursor: pointer;
+}
+
+.capricorn-button {
+  background: none;
+}
+.capricorn-button:hover {
+  cursor: pointer;
+}
+
+
+
+
+
