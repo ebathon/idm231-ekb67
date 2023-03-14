@@ -3,26 +3,30 @@
     margin: 0;
     padding: 0;
     border: none;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: 'Mona-Sans', sans-serif;
 }
 
 .home {
-    background-color:hsla(259,100%,50%,1);
-    background-image:
-    radial-gradient(at 40% 20%, hsla(28,100%,74%,1) 0px, transparent 50%),
-    radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0px, transparent 50%),
-    radial-gradient(at 0% 50%, hsla(355,100%,93%,1) 0px, transparent 50%),
-    radial-gradient(at 80% 50%, hsla(340,100%,76%,1) 0px, transparent 50%),
-    radial-gradient(at 0% 100%, hsla(22,100%,77%,1) 0px, transparent 50%),
-    radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0px, transparent 50%),
-    radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
+  background-color:hsla(271,100%,50%,1);
+  background-image:
+  radial-gradient(at 40% 20%, hsla(240,100%,30%,1) 0px, transparent 50%),
+  radial-gradient(at 80% 0%, hsla(189,100%,50%,1) 0px, transparent 50%),
+  radial-gradient(at 80% 50%, hsla(340,100%,29%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 100%, hsla(7,100%,43%,1) 0px, transparent 50%),
+  radial-gradient(at 80% 100%, hsla(240,92%,24%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
 }
+
+.h1{
+  font-size: 1 rem;
+}
+
 /* help button */
 
 .help-button-box{
   display: flex;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -38,18 +42,19 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  margin: auto;
+  padding-left: 50px;
 }
 .help-button-close {
   display: flex;
   align-self: flex-end;
-  width: 60px;
-  height: 60px;
-  background-color: black;
+  width: 40px;
+  height: 40px;
   text-align: center;
   align-items: center;
   justify-content: center;
   border-radius: 30px;
-  margin: 10px;
+  
 }
 .help-close-icon {
   border: none;
@@ -59,11 +64,11 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  margin: 10px;
+  margin: auto;
 }
 .help-box-list {
   padding:  0 0 0 30px;
-  /*color: #fff;*/
+  color: #fff;
   font-size: 1.5rem;
   padding: 10px 30px;
   margin: 10px 20px;
@@ -79,7 +84,7 @@
   margin: 20px 0;
 }
 .help-box-sub-heading {
- /* color: #fff;*/
+  color: #fff;
   padding: 10px 0 0 20px;
   font-size: 2rem;
   text-align: center;
@@ -90,13 +95,17 @@
   padding: 25px;
 }*/
 .rapper-title {
-  font-size: 2rem;
-  
-  padding: 10px;
+  color:#FFF;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 20px;
   margin: 5px;
+  font-family: 'NCS Radhiumz';
 }
 .dob-text {
+  font-family:'Mona-Sans', sans-serif;
   font-size: 1.25rem;
+  font-weight: 100;
   text-align: center;
   color: #fff;
   padding: 5px;
@@ -133,8 +142,7 @@ text-align: center;
 }
 .rapper-img {
   width: 100%;
-  border-radius: 20px;
-  border: 3px solid #fff;
+  
 }
 
 #main-container {
@@ -151,7 +159,8 @@ text-align: center;
 
 .input-month {
   color: #fff;
-  font-size: 1.25rem;
+  font-family: 'Mona-Sans', sans-serif;
+  font-size: 1rem;
   background-color: black;
   box-sizing: border-box;
   padding: 1rem;
@@ -163,7 +172,7 @@ text-align: center;
 }
 .input-day {
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 1rem;
   background-color: black;
   box-sizing: border-box;
   padding: 1rem;
@@ -176,14 +185,13 @@ text-align: center;
 
 .rapper-sub-box {
   display: none;
-  max-width: 300px;
+  max-width: 200px;
   color: #fff;
   background-color: black;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 20px;
   margin: 20px auto 20px auto;
-  border-radius: 10px;
-  border: 3px solid #fff;
+ 
 }
 
 .sign-name-aquarius {

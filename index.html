@@ -6,19 +6,21 @@
     <meta name="theme-color" content="#0f172a" />
     <meta name="description" content="IDM231 Zodiac Project" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="https://fonts.cdnfonts.com/css/ncs-radhiumz" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/mona-sans" rel="stylesheet">
   
     <title>What Rapper Are You Based on Astrology?</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-
+    <div class="home">
     <div class="wrapper">
     <div class="help-button-box">
-      <button class="help-button-icon">
-        <img class="help-icon" src="images/help-button.svg" alt="help button">
+      <button class="help-button-icon js-help-button">
+        <img class="help-icon js-help-icon" src="images/help-button.svg" alt="help button">
       </button>
     </div>
-<div class="home">
+
     <div class="help-box-rectangle js-help-box">
       <button class="help-button-close js-help-button-close">
           <img class="help-close-icon js-help-close-icon" src="images/help-button-close.png" alt="help close button">
@@ -35,7 +37,7 @@
           </li>
       </ul>
     </div>
-    <div class="rectangle">
+    <div class="rectangle js-main-rectangle">
       <div class="rapper-title">
         <h1>What Rapper Are You Based on Astrology?</h1>
       </div>
@@ -56,11 +58,11 @@
       </form>
 
       <div class="modals">
-        <div class="rapper-sub-box">
-          <h1 class="sign-name-aquarius"><span class= "mainresult"></span></h1>
-            <img class="sign-image-aquarius" src= "images/jcole.png" alt="Picture of J. Cole">
-          <h2 class="name-of-person-aquarius"></h2>
-          <p class="person-bio-aquarius"></p>
+        <div class="rapper-sub-box js-rapper-reveal">
+          <h1 class="sign-name-aquarius js-sign-name"><span class= "mainresult"></span></h1>
+            <img class="sign-image-aquarius js-rapper-img" src= "images/j-cole-circle.png" alt="Picture of J. Cole">
+          <h2 class="name-of-person-aquarius js-character-name-person"></h2>
+          <p class="person-bio-aquarius js-rapper-bio"></p>
         </div>
       </div>
 </div>
@@ -68,76 +70,77 @@
     <section id="main-container">
         <button class="aquarius-button">
           <div class="rapper-box">
-            <img class="rapper-image" src="images/jcole.png" alt="Picture of J.Cole">
+            <img class="rapper-image" src="images/j-cole-circle.png" alt="Picture of J.Cole">
           </div>
         </button>
 
         <button class="pisces-button">
           <div class="rapper-box">
-            <img class="rapper-img" src="images/Tyler_the_creator.png" alt="Picture of Tyler,The Creator">
+            <img class="rapper-img" src="images/tyler-the-creator-circle.png" alt="Picture of Tyler,The Creator">
           </div>
         </button>
 
       <button class="aries-button">
         <div class="rapper-box">
-          <img class="rapper-img" src="images/Chance-The-Rapper.svg" alt="Picture of Chance The Rapper">
+          <img class="rapper-img" src="images/chance-the-rapper-circle.png" alt="Picture of Chance The Rapper">
         </div>
       </button>
 
       <button class="taurus-button">
         <div class="rapper-box">
-          <img class="rapper-img" src="images/travis-scott.png" alt="Picture of Travis Scott">
+          <img class="rapper-img" src="images/travis-scott-circle.png" alt="Picture of Travis Scott">
         </div>
       </button>
 
       <button class="gemini-button">
         <div class="rapper-box">
-          <img class="rapper-img" src="images/kanye-west.png" alt="Picture of Kanye West">
+          <img class="rapper-img" src="images/kanye-West-circle.png" alt="Picture of Kanye West">
         </div>
       </button>
 
       <button class="cancer-button">
         <div class="rapper-box">
-          <img class="rapper-img" src="images/50-cent.png" alt="Picture of 50 Cent">
+          <img class="rapper-img" src="images/50-cent-circle.png" alt="Picture of 50 Cent">
         </div>
       </button>
 
       <button class="leo-button">
         <div class="rapper-box">
-          <img class="rapper-img" src="images/lil-uzi-vert.svg" alt="Picture of Lil Uzi Vert">
+          <img class="rapper-img" src="images/lil-uzi-vert-circle.png" alt="Picture of Lil Uzi Vert">
         </div>
       </button>
 
       <button class="virgo-button">
         <div class="rapper-box">
-          <img class="studio-img" src="images/flo-rida.png" alt="Picture of Flo Rida">
+          <img class="studio-img" src="images/flo-rida-circle.png" alt="Picture of Flo Rida">
          </div>
       </button>
       <button class="libra-button">
         <div class="rapper-box">
-          <img class="rapper-img" src="images/eminem.png" alt="Picture of Eminem">
+          <img class="rapper-img" src="images/eminem-circle.png" alt="Picture of Eminem">
         </div>
       </button>
 
       <button class="scorpio-button">
         <div class="rapper-box">
-            <img class="rapper-img" src="images/drake.png" alt="Picture of Drake">
+            <img class="rapper-img" src="images/drake-circle.png" alt="Picture of Drake">
         </div>
       </button>
 
       <button class="sagittarius-button">
         <div class="rapper-box">
-          <img class="rapper-img" src="images/jayz.svg" alt="Picture of Jay Z">
+          <img class="rapper-img" src="images/jay-z-circle.png" alt="Picture of Jay Z">
         </div>
       </button>
 
       <button class="capricorn-button">
         <div class="rapper-box">
-          <img class="rapper-img" src="images/mac-miller.png" alt="Picture of Mac Miller">
+          <img class="rapper-img" src="images/mac-miller-circle.png" alt="Picture of Mac Miller">
         </div>
       </button>
 
     </section>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
