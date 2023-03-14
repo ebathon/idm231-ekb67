@@ -1,4 +1,4 @@
-/*var audio = new Audio("Ghibli-Jazz-Piano.mp3");
+/*var audio = new Audio();
 
 document.onclick = function() {
   audio.play();
@@ -34,7 +34,7 @@ function zodiac(){
       sign = "Aquarius";
       img = "images/jcole.png";
       rapperName = "J.Cole";
-      bio = "Your film is Spirited Away!";
+      bio = "filler";
       }
   
     if ((birthmonth == 2&& birthday >= 19) || (birthmonth == 3&& birthday <= 20)){
@@ -43,7 +43,7 @@ function zodiac(){
       sign="Pisces";
       img="images/Tyler_the_creator.png";
       rapperName="Tyler, The Creator";
-      bio ="Your film is Ponyo!";
+      bio ="filler";
       }
 
     if ((birthmonth == 3 && birthday >= 21) || (birthmonth == 4 && birthday <= 19)){
@@ -52,7 +52,7 @@ function zodiac(){
       sign="Aries";
       img="images/Chance-The_Rapper.svg";
       rapperName="Chance The Rapper";
-      bio ="Your film is Princess Mononoke!";
+      bio ="filler";
     }
     
     if ((birthmonth == 4 && birthday >= 20)|| (birthmonth == 5 && birthday <= 20)){
@@ -61,7 +61,7 @@ function zodiac(){
       sign="Taurus";
       img="images/travis-scott.png";
       rapperName="Travis Scott";    
-      bio ="Your film is Totoro!";
+      bio ="filler";
       }
     
     if ((birthmonth == 5 && birthday >= 21) || (birthmonth == 6 && birthday <= 20)){
@@ -70,7 +70,7 @@ function zodiac(){
       sign="Gemini";
       img="images/kanye-west.png";
       rapperName="Kanye West";
-      bio ="Your film is Kiki's Delivery Service!";
+      bio ="filler";
       }
     
     if ((birthmonth == 6 && birthday >= 21) || (birthmonth == 7 && birthday <= 22)){
@@ -79,7 +79,7 @@ function zodiac(){
       sign="Cancer";
       img="images/50-cent.png";
       rapperName="50 Cent";
-      bio ="Your film is Secret World of Arriety!";
+      bio ="filler";
       }
 
     if ((birthmonth == 7 && birthday >= 23) || (birthmonth == 8 && birthday <= 22)){
@@ -88,7 +88,7 @@ function zodiac(){
       sign="Leo";
       img="images/lil-uzi-vert.svg";
       rapperName="Lil Uzi Vert";
-      bio ="Your film is Graveyard of the Fireflies!";
+      bio ="filler";
       }
 
       if ((birthmonth == 8 && birthday >= 23) || (birthmonth == 9 && birthday <= 22)){
@@ -97,7 +97,7 @@ function zodiac(){
         sign="Virgo";
         img="images/flo-rida.png";
         rapperName="Flo Rida";
-        bio ="Your film is When Marnie Was Here!";
+        bio ="filler";
         }
 
       if ((birthmonth == 9 && birthday >= 23) || (birthmonth == 10 && birthday <= 22)){
@@ -106,7 +106,7 @@ function zodiac(){
         sign="Libra";
         img="images/eminem.png";
         rapperName="Eminem";
-        bio ="Your film is Ocean Waves!";
+        bio ="filler";
       }
 
       if ((birthmonth == 10 && birthday >= 23) || (birthmonth == 11 && birthday <= 21)){
@@ -115,7 +115,7 @@ function zodiac(){
         sign="Scorpio";
         img="images/drake.png";
         rapperName="Drake";
-        bio ="Your film is Nausicaa of the Valley of the Wind!"; 
+        bio ="filler"; 
       }
 
       if ((birthmonth == 11 && birthday >= 22) || (birthmonth == 12 && birthday <= 21)){
@@ -124,7 +124,7 @@ function zodiac(){
         sign="Sagittarius";
         img="images/jayz.svg";
         rapperName="Jay Z";
-        bio ="Your film is Whisper of the Heart!";
+        bio ="filler";
         }
     
     if((birthmonth == 12 && birthday >= 22) || (birthmonth == 1 && birthday <= 19)){
@@ -133,7 +133,7 @@ function zodiac(){
         sign="Capricorn";
         img="images/mac-miller.png";
         rapperName="Mac Miller";
-        bio ="Your film is Howl's Moving Castle";  
+        bio ="filler";  
       }
         else if ((birthmonth>12||birthday>31) || (birthmonth<1||birthday<1)){
           return alert("Please enter correct date!")
@@ -189,15 +189,15 @@ maskAquarius.addEventListener('click', function(){
     sign = "Aquarius";
     img = "images/jcole.png";
     rapperName = "J.Cole";
-      bio = "Your film is Spirited Away!";
+      bio = "filler";
       findCharacter();
   });
   maskpisces.addEventListener('click', function(){
     document.getElementsByClassName("zodiac-sub-box").innerHTML
     sign="Pisces";
-    img="images/Tyler_the-creator.png";
+    img="images/Tyler_the_creator.png";
     rapperName="Tyler, The Creator";
-      bio ="Your film is Ponyo!";
+      bio ="filler";
       findCharacter();
      
   });
@@ -206,7 +206,7 @@ maskAquarius.addEventListener('click', function(){
     sign="Aries";
     img="images/Chance-The-Rapper.svg";
     rapperName="Chance The Rapper";
-      bio ="Your film is Princess Mononoke!";
+      bio ="filler";
       findCharacter();
     
   });
@@ -215,7 +215,7 @@ maskAquarius.addEventListener('click', function(){
     sign="Taurus";
     img="images/travis-scott.png";
     rapperName="Travis Scott";    
-      bio ="Your film is Totoro!";
+      bio ="filler";
       findCharacter();
       
   });
@@ -224,7 +224,7 @@ maskAquarius.addEventListener('click', function(){
     sign="Gemini";
     img="images/kanye-west.png";
     rapperName="Kanye West";
-      bio ="Your film is Kiki's Delivery Service!";
+      bio ="filler";
       findCharacter();
     
   });
@@ -233,7 +233,7 @@ maskAquarius.addEventListener('click', function(){
     sign="Cancer";
     img="images/50-cent.png";
     rapperName="50 Cent";
-      bio ="Your film is Secret World of Arriety!";
+      bio ="filler";
       findCharacter();
     
   });
@@ -242,7 +242,7 @@ maskAquarius.addEventListener('click', function(){
     sign="Leo";
     img="images/lil-uzi-vert.svg";
     rapperName="Lil Uzi Vert";
-      bio ="Your film is Graveyard of the Fireflies!";
+      bio ="filler";
       findCharacter();
     
   });
@@ -251,7 +251,7 @@ maskAquarius.addEventListener('click', function(){
     sign="Virgo";
     img="images/flo-rida.png";
     rapperName="Flo Rida";
-      bio ="Your film is When Marnie Was Here!";
+      bio ="filler";
       findCharacter();
    
   });
@@ -260,7 +260,7 @@ maskAquarius.addEventListener('click', function(){
     sign="Libra";
     img="images/eminem.png";
     rapperName="Eminem";
-      bio ="Your film is Ocean Waves!";
+      bio ="filler";
       findCharacter();
      
   });
@@ -269,7 +269,7 @@ maskAquarius.addEventListener('click', function(){
     sign="Scorpio";
     img="images/drake.png";
     rapperName="Drake";
-      bio ="Your film is Nausicaa of the Valley of the Wind!";
+      bio ="filler";
       findCharacter();
    
   });
@@ -287,7 +287,7 @@ maskAquarius.addEventListener('click', function(){
     sign="Capricorn";
     img="images/mac-miller.png";
     rapperName="Mac Miller";
-      bio ="Your film is Howl's Moving Castle!";
+      bio ="filler";
       findCharacter();
   
   });
