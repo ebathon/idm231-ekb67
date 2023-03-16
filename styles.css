@@ -25,13 +25,12 @@
 
 .help-button-box{
   display: flex;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   text-align: center;
   align-items: center;
   justify-content: center;
   border-radius: 30px;
-  padding:25px;
 }
 
 .help-button-icon {
@@ -192,7 +191,7 @@ text-align: center;
 .rapper-sub-box {
   display: none;
   color: #fff;
-  background-color: black;
+  background: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 20px;
   margin: 20px auto 20px auto;

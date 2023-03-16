@@ -30,7 +30,7 @@ function zodiac(){
 
     if ((birthmonth == 1 && birthday >= 20) || (birthmonth == 2 && birthday <= 18)){
       
-      document.getElementsByClassName("zodiac-sub-box").innerHTML
+    //   document.getElementsByClassName("zodiac-sub-box").innerHTML
       sign = "Aquarius";
       img = "images/jcole.png";
       rapperName = "J.Cole";
@@ -39,7 +39,7 @@ function zodiac(){
   
     if ((birthmonth == 2&& birthday >= 19) || (birthmonth == 3&& birthday <= 20)){
       
-      document.getElementsByClassName("zodiac-sub-box").innerHTML
+    //   document.getElementsByClassName("zodiac-sub-box").innerHTML
       sign="Pisces";
       img="images/Tyler_the_creator.png";
       rapperName="Tyler, The Creator";
@@ -48,7 +48,7 @@ function zodiac(){
 
     if ((birthmonth == 3 && birthday >= 21) || (birthmonth == 4 && birthday <= 19)){
      
-      document.getElementsByClassName("zodiac-sub-box").innerHTML
+    //   document.getElementsByClassName("zodiac-sub-box").innerHTML
       sign="Aries";
       img="images/Chance-The_Rapper.svg";
       rapperName="Chance The Rapper";
@@ -57,7 +57,7 @@ function zodiac(){
     
     if ((birthmonth == 4 && birthday >= 20)|| (birthmonth == 5 && birthday <= 20)){
       
-      document.getElementsByClassName("zodiac-sub-box").innerHTML
+    //   document.getElementsByClassName("zodiac-sub-box").innerHTML
       sign="Taurus";
       img="images/travis-scott.png";
       rapperName="Travis Scott";    
@@ -66,7 +66,7 @@ function zodiac(){
     
     if ((birthmonth == 5 && birthday >= 21) || (birthmonth == 6 && birthday <= 20)){
      
-      document.getElementsByClassName("zodiac-sub-box").innerHTML
+    //   document.getElementsByClassName("zodiac-sub-box").innerHTML
       sign="Gemini";
       img="images/kanye-west.png";
       rapperName="Kanye West";
@@ -75,7 +75,7 @@ function zodiac(){
     
     if ((birthmonth == 6 && birthday >= 21) || (birthmonth == 7 && birthday <= 22)){
       
-      document.getElementsByClassName("zodiac-sub-box").innerHTML
+    //   document.getElementsByClassName("zodiac-sub-box").innerHTML
       sign="Cancer";
       img="images/50-cent.png";
       rapperName="50 Cent";
@@ -84,7 +84,7 @@ function zodiac(){
 
     if ((birthmonth == 7 && birthday >= 23) || (birthmonth == 8 && birthday <= 22)){
       
-      document.getElementsByClassName("zodiac-sub-box").innerHTML
+    //   document.getElementsByClassName("zodiac-sub-box").innerHTML
       sign="Leo";
       img="images/lil-uzi-vert.svg";
       rapperName="Lil Uzi Vert";
@@ -93,7 +93,7 @@ function zodiac(){
 
       if ((birthmonth == 8 && birthday >= 23) || (birthmonth == 9 && birthday <= 22)){
 
-        document.getElementsByClassName("zodiac-sub-box").innerHTML
+        // document.getElementsByClassName("zodiac-sub-box").innerHTML
         sign="Virgo";
         img="images/flo-rida.png";
         rapperName="Flo Rida";
@@ -102,7 +102,7 @@ function zodiac(){
 
       if ((birthmonth == 9 && birthday >= 23) || (birthmonth == 10 && birthday <= 22)){
         
-        document.getElementsByClassName("zodiac-sub-box").innerHTML
+        // document.getElementsByClassName("zodiac-sub-box").innerHTML
         sign="Libra";
         img="images/eminem.png";
         rapperName="Eminem";
@@ -111,7 +111,7 @@ function zodiac(){
 
       if ((birthmonth == 10 && birthday >= 23) || (birthmonth == 11 && birthday <= 21)){
        
-        document.getElementsByClassName("zodiac-sub-box").innerHTML
+        // document.getElementsByClassName("zodiac-sub-box").innerHTML
         sign="Scorpio";
         img="images/drake.png";
         rapperName="Drake";
@@ -120,7 +120,7 @@ function zodiac(){
 
       if ((birthmonth == 11 && birthday >= 22) || (birthmonth == 12 && birthday <= 21)){
         
-        document.getElementsByClassName("zodiac-sub-box").innerHTML
+        // document.getElementsByClassName("zodiac-sub-box").innerHTML
         sign="Sagittarius";
         img="images/jayz.svg";
         rapperName="Jay Z";
@@ -129,7 +129,7 @@ function zodiac(){
     
     if((birthmonth == 12 && birthday >= 22) || (birthmonth == 1 && birthday <= 19)){
        
-        document.getElementsByClassName("zodiac-sub-box").innerHTML
+        // document.getElementsByClassName("zodiac-sub-box").innerHTML
         sign="Capricorn";
         img="images/mac-miller.png";
         rapperName="Mac Miller";
