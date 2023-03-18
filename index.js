@@ -57,7 +57,7 @@ function zodiac(){
     
     if ((birthmonth == 4 && birthday >= 20)|| (birthmonth == 5 && birthday <= 20)){
       
-    //   document.getElementsByClassName("zodiac-sub-box").innerHTML
+    document.getElementsByClassName("zodiac-sub-box").innerHTML
       sign="Taurus";
       img="images/travis-scott.png";
       rapperName="Travis Scott";    
