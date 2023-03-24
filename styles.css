@@ -4,9 +4,10 @@
     padding: 0;
     border: none;
     font-family: 'Mona-Sans', sans-serif;
+    line-height: 150%;
 }
 
-.home {
+body {
   background-color:hsla(271,100%,50%,1);
   background-image:
   radial-gradient(at 40% 20%, hsla(240,100%,30%,1) 0px, transparent 50%),
@@ -42,8 +43,13 @@
   justify-content: center;
   cursor: pointer;
   margin: auto;
-  padding-left: 50px;
+  padding-left: 70px;
+  margin-top: 30px;
+
 }
+
+
+
 .help-button-close {
   display: flex;
   align-self: flex-end;
@@ -141,7 +147,7 @@ text-align: center;
 }
 .rapper-img {
   width: 100%;
-  
+ 
 }
 
 #main-container {
@@ -192,7 +198,7 @@ text-align: center;
 .rapper-sub-box {
   display: none;
   color: #fff;
-  background: purple;
+  background: rgba(0, 0, 0, 0.517);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 20px;
   margin: 20px auto 20px auto;

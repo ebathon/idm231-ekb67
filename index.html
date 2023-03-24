@@ -17,14 +17,12 @@
     <div class="wrapper">
     <div class="help-button-box">
       <button class="help-button-icon js-help-button">
-        <img class="help-icon js-help-icon" src="images/help-button.svg" alt="help button">
+        <img class="help-icon js-help-icon" src="./images/help-button.svg" alt="help button" id="imgClickAndChange" onclick="changeImage()">
       </button>
     </div>
 
     <div class="help-box-rectangle js-help-box">
-      <button class="help-button-close js-help-button-close">
-          <img class="help-close-icon js-help-close-icon" src="images/help-button-close.png" alt="help close button">
-      </button>
+ 
       <h1 class="help-box-sub-heading">
           Instructions
       </h1>
@@ -64,7 +62,10 @@
   <div class="modals">
         <div class="rapper-sub-box js-rapper-reveal">
           <h1 class="sign-name-aquarius js-sign-name"><span class= "mainresult"></span></h1>
-            <img class="sign-image-aquarius js-rapper-img" src= "images/j-cole-circle.png" alt="Picture of J. Cole">
+            <img class="sign-image-aquarius js-rapper-img" src= "images/j-cole-circle.png" alt="Picture of J. Cole" 
+            style="  display: block;
+            margin-left: auto;
+            margin-right: auto;">
           <h2 class="name-of-person-aquarius js-character-name-person"></h2>
           <p class="person-bio-aquarius js-rapper-bio"></p>
         </div>
@@ -72,11 +73,13 @@
   </div>
 
     <section id="main-container">
+
         <button class="aquarius-button">
           <div class="rapper-box">
-            <img class="rapper-image" src="images/j-cole-circle.png" alt="Picture of J.Cole">
+            <img class="rapper-img"  src="images/j-cole-circle.png" alt="Picture of J.Cole">
           </div>
         </button>
+
 
         <button class="pisces-button">
           <div class="rapper-box">
