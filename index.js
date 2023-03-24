@@ -130,11 +130,12 @@ function zodiac(){
     if((birthmonth == 12 && birthday >= 22) || (birthmonth == 1 && birthday <= 19)){
        
         // document.getElementsByClassName("zodiac-sub-box").innerHTML
-        audio= document.getElementById("mac-miller-self-care.mp3");
         sign="Capricorn";
         img="images/mac-miller.png";
         rapperName="Mac Miller";
         bio ="Capricorn is the zodiac sign for those born between December 22nd and January 19th. Symbolized by the mountain goat, Capricorns are known for their disciplined, ambitious, and hardworking nature. They have a natural talent for achieving their goals and are often drawn to careers in fields such as business, finance, and music. Mac Miller, who was born on January 19th, embodies many of the traits associated with Capricorn. As a rapper and producer, he showed a disciplined and hardworking approach to his music, constantly refining his craft and experimenting with new sounds. He also demonstrated an ambitious and entrepreneurial spirit, building his brand and connecting with fans through his unique style and personal lyrics.";
+        var audio = document.getElementById("myAudio");
+        audio.play();
 
       }
         else if ((birthmonth>12||birthday>31) || (birthmonth<1||birthday<1)){
@@ -285,7 +286,8 @@ maskAquarius.addEventListener('click', function(){
      
   });
   maskCapricorn.addEventListener('click', function(){
-    audio= document.getElementById("mac-miller-self-care.mp3");
+    var audio = document.getElementById("myAudio");
+        audio.play();
     document.getElementsByClassName("zodiac-sub-box").innerHTML
     sign="Capricorn";
     img="images/mac-miller.png";
